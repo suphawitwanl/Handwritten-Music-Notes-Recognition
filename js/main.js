@@ -135,6 +135,7 @@ document.getElementById("clear_button").addEventListener("click", function () {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   ctx.fillStyle = "black";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
+  audio.pause();
 });
 
 //integrating  CANVAS  with CNN MODEL
@@ -210,7 +211,7 @@ function displayLabel(data) {
   }
   let notes_array = ["Do", "Re", "Mi", "Fa", "Sol", "La", "Ti", "Imposter"];
   document.getElementById("result").innerHTML = notes_array[maxIndex];
-  var audio = new Audio(`Sounds/${notes_array[maxIndex]}.mp3`);
+  window.audio = new Audio(`Sounds/${notes_array[maxIndex]}.mp3`);
   audio.play();
   document.getElementById("confidence").innerHTML =
     "Confidence: " + (max * 100).toFixed(2) + "%";
