@@ -12,3 +12,8 @@ VGG19-based Model: Employs the powerful VGG19 architecture for feature extractio
 Dense Layer (64 Neurons): Utilizes a single dense layer with 64 neurons for effective classification of music notes.
 GitHub Deployment: Enables easy access to the project code and potential contributions from the community.
 
+member of melody team
+Suphawit Wanlaung 
+Phoom Wicahchai
+yuttana chuaychoosuk
+
