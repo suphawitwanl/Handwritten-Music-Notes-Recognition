@@ -13,7 +13,8 @@ Dense Layer (64 Neurons): Utilizes a single dense layer with 64 neurons for effe
 GitHub Deployment: Enables easy access to the project code and potential contributions from the community.
 
 member of melody team
-Suphawit Wanlaung 
-Phoom Wicahchai
+
+Suphawit Wanlaung                                                                                  
+Phoom Wicahchai                                        
 yuttana chuaychoosuk
 
